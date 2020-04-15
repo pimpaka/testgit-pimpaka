@@ -14,10 +14,31 @@ class App extends Component {
   }
 
   componentDidMount () {
+//TODO: 
+//     fetch()
+// .then((response) => {
+//     if (response.status === 200) { // Or what ever you want to check
+//         return Promise.resolve(response.json()); // This will end up in SUCCESS part
+//     }
+//     return Promise.resolve(response.json()).then((responseInJson) => { // This will end up in ERROR part
+//         return Promise.reject(responseInJson.message); //  responseInJson.message = "Some nasty error message!"
+//     });
+// })
+// .then((result) => { // SUCCESS part
+//     console.log("Success: ", result); // Response from api in json
+// }, (error) => { // ERROR part
+//     // Because we rejected responseInJson.message, error will contain message from api. In this case "Some nasty error message!"
+//     console.log("Error: ", error); 
+// })
+// .catch(catchError => {
+//     console.log("Catch: ", catchError);
+// })
+// .finally(() => { ...});
+
+
     fetch('https://jsonplaceholder.typicode.com/users', {
       method: 'GET',
       headers: {
-        'Accept': 'application/json',
         'Access-Control-Allow-Origin':'*'
       }
     })
