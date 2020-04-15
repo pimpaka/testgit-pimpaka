@@ -2,12 +2,13 @@ import React, { Component } from 'react';
 import { CardList } from './components/card-list/card-list.component'
 import { SearchBox } from './components/search-box/search-box.component'
 import './App.css';
-
+import monstersdata from './mockdata'
+// console.log(monstersdata)
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      monsters: [],
+      monsters: monstersdata,
       searchField: ''
     }
   }
