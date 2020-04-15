@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a5411761a8787800dd429c362cbbc2dc",
+    "revision": "c9e1284ebfd8f0e67ca930e8abedd30d",
     "url": "/testgit-pimpaka/index.html"
   },
   {
-    "revision": "ff4c5a9c4d057fb7d235",
+    "revision": "3320bf2ed0f18fe66cb8",
     "url": "/testgit-pimpaka/static/css/main.09b4a74a.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/testgit-pimpaka/static/js/2.7ed52910.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ff4c5a9c4d057fb7d235",
-    "url": "/testgit-pimpaka/static/js/main.942164c0.chunk.js"
+    "revision": "3320bf2ed0f18fe66cb8",
+    "url": "/testgit-pimpaka/static/js/main.cd7e95ea.chunk.js"
   },
   {
     "revision": "c161466dc97cbcc216e7",
