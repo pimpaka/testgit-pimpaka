@@ -17,7 +17,8 @@ class App extends Component {
     fetch('https://jsonplaceholder.typicode.com/users', {
       method: 'GET',
       headers: {
-        'Accept': 'application/json'
+        'Accept': 'application/json',
+        'Access-Control-Allow-Origin':'*'
       }
     })
     .then(response => response.json())
