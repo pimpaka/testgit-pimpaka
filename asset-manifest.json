@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/testgit-pimpaka/static/css/main.6cf4a9de.chunk.css",
+    "main.css": "/testgit-pimpaka/static/css/main.09b4a74a.chunk.css",
     "main.js": "/testgit-pimpaka/static/js/main.70459936.chunk.js",
     "main.js.map": "/testgit-pimpaka/static/js/main.70459936.chunk.js.map",
     "runtime-main.js": "/testgit-pimpaka/static/js/runtime-main.0e125eff.js",
@@ -8,15 +8,15 @@
     "static/js/2.7ed52910.chunk.js": "/testgit-pimpaka/static/js/2.7ed52910.chunk.js",
     "static/js/2.7ed52910.chunk.js.map": "/testgit-pimpaka/static/js/2.7ed52910.chunk.js.map",
     "index.html": "/testgit-pimpaka/index.html",
-    "precache-manifest.80f39724d41bdcffcbde394570bf94e7.js": "/testgit-pimpaka/precache-manifest.80f39724d41bdcffcbde394570bf94e7.js",
+    "precache-manifest.4be6ec238127acc2de7aaaf755fc56c0.js": "/testgit-pimpaka/precache-manifest.4be6ec238127acc2de7aaaf755fc56c0.js",
     "service-worker.js": "/testgit-pimpaka/service-worker.js",
-    "static/css/main.6cf4a9de.chunk.css.map": "/testgit-pimpaka/static/css/main.6cf4a9de.chunk.css.map",
+    "static/css/main.09b4a74a.chunk.css.map": "/testgit-pimpaka/static/css/main.09b4a74a.chunk.css.map",
     "static/js/2.7ed52910.chunk.js.LICENSE.txt": "/testgit-pimpaka/static/js/2.7ed52910.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0e125eff.js",
     "static/js/2.7ed52910.chunk.js",
-    "static/css/main.6cf4a9de.chunk.css",
+    "static/css/main.09b4a74a.chunk.css",
     "static/js/main.70459936.chunk.js"
   ]
 }
