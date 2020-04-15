@@ -31,6 +31,7 @@ class App extends Component {
     return (
       <div className="App">
         hello
+        <link src='https://google.co.th' />
         <SearchBox 
           placeholder='search monster' 
           handlechange={this.handleChange}

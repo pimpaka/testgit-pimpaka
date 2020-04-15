@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/testgit-pimpaka/precache-manifest.94c96b30514fa05ab21745ceeb597a4c.js"
+  "/testgit-pimpaka/precache-manifest.e6ac06cee0709f32e7b57d06ef7cc359.js"
 );
 
 self.addEventListener('message', (event) => {
