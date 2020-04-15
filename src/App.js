@@ -37,13 +37,22 @@ class App extends Component {
 
 
     fetch('https://jsonplaceholder.typicode.com/users', {
-      method: 'GET',
-      headers: {
-        'Access-Control-Allow-Origin':'https://pimpaka.github.io/'
-      }
+      // method: 'GET',
+      // headers: {
+      //   'Access-Control-Allow-Origin':'https://pimpaka.github.io/'
+      // }
     })
     .then(response => response.json())
     .then(user => this.setState({ monsters: user }))
+
+    this.getFakeApi()
+  }
+
+  getFakeApi = () => {
+    fetch('http://dummy.restapiexample.com/api/v1/employees')
+    .then(res => res.json())
+    .then(user => this.setState({ fakseAPI: user }))
+    .then(() => console.log(this.state))
   }
 
   handleChange = (e) => {
