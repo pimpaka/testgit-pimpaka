@@ -39,7 +39,7 @@ class App extends Component {
     fetch('https://jsonplaceholder.typicode.com/users', {
       method: 'GET',
       headers: {
-        'Access-Control-Allow-Origin':'*'
+        'Access-Control-Allow-Origin':'https://pimpaka.github.io/'
       }
     })
     .then(response => response.json())
