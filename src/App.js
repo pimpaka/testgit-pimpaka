@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import { CardList } from './components/card-list/card-list.component'
 import { SearchBox } from './components/search-box/search-box.component'
 import './App.css';
-// import monstersdata from './mockdata'
-// console.log(monstersdata)
 class App extends Component {
   constructor(props) {
     super(props);
@@ -44,15 +42,6 @@ class App extends Component {
     })
     .then(response => response.json())
     .then(user => this.setState({ monsters: user }))
-
-    this.getFakeApi()
-  }
-
-  getFakeApi = () => {
-    fetch('http://dummy.restapiexample.com/api/v1/employees')
-    .then(res => res.json())
-    .then(user => this.setState({ fakseAPI: user }))
-    .then(() => console.log(this.state))
   }
 
   handleChange = (e) => {
@@ -66,8 +55,7 @@ class App extends Component {
       )
     return (
       <div className="App">
-        hello
-        <a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a>
+        <h1>Monsters Rlodex</h1>
         <SearchBox 
           placeholder='search monster' 
           handlechange={this.handleChange}
